@@ -1,6 +1,3 @@
-// lab2.cpp: определяет точку входа для консольного приложения.
-//
-
 #include "stdafx.h"
 #include <iostream>
 #include <cstdlib>
@@ -363,7 +360,7 @@ multidigitNumber& multidigitNumber::LongSubMod(const multidigitNumber& A, const 
 		*this = C;
 		return (*this);
 	}
-	else cout << "Отрицательное число!" << endl;
+	else cout << "ГЋГІГ°ГЁГ¶Г ГІГҐГ«ГјГ­Г®ГҐ Г·ГЁГ±Г«Г®!" << endl;
 }
 
 const int multidigitNumber::Length()
@@ -486,10 +483,10 @@ int main()
 //	cout << C << endl;
 	C.gsd(A, B);
 	D.lcm(A, B);
-	cout << "Число А = " << A << endl;
-	cout << "Число В = " << B << endl;
-	cout << "НОД А и В = " << C << endl;
-	cout << "НОК А и В = " << D << endl;
+	cout << "Г—ГЁГ±Г«Г® ГЂ = " << A << endl;
+	cout << "Г—ГЁГ±Г«Г® Г‚ = " << B << endl;
+	cout << "ГЌГЋГ„ ГЂ ГЁ Г‚ = " << C << endl;
+	cout << "ГЌГЋГЉ ГЂ ГЁ Г‚ = " << D << endl;
 //	E.LongAddMod(A, B, N);
 //	cout << "(A+B)modN = " << E << endl;
 //	F.LongSubMod(A, B, N);
