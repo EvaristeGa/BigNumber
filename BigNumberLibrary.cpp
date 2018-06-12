@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class multidigitNumber
+class multidigitNumber//класс длинной арифметики
 {
 private:
 	unsigned long int mas[128];
@@ -46,7 +46,7 @@ public:
 	bool Miller_Rabin_test(const multidigitNumber& P);
 };
 
-multidigitNumber::multidigitNumber(const string s)
+multidigitNumber::multidigitNumber(const string s)//конструктор считывает большое число со строки
 {
 	string hex = "0123456789ABCDEF";
 
